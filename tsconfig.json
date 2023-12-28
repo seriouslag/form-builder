@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "dist",
+    "node_modules",
+    "out"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "out",
+    "incremental": true,
+    "isolatedModules": true,
+    "composite": true,
+    "target": "ES2022",
+    "module": "CommonJs",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
